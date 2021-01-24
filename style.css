@@ -1,0 +1,38 @@
+body {
+    background-color: rgba(239, 172, 241, 0.52);
+    margin: 5px;
+}
+
+.grid__body {
+    display: grid;
+
+    grid-template-columns: 1fr 6fr 1fr;
+    grid-template-rows: 200px 2fr 1fr;
+}
+
+.grid__items {
+ text-align: center;
+ /* border: 2px dashed rgba(247, 11, 11, 0.986);    */
+ /* padding: 30px; */
+}
+
+/* .grid__itemskon {
+    display: flex;
+    
+} */
+
+.misha-p {
+    max-width: 200px;
+}
+.misha-karta { 
+    max-width: 200px;
+}
+.grid__itemsk {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+h3 {
+    padding-left: 15px;
+    /* text-decoration: underline; */
+}
